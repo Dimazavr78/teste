@@ -26,12 +26,78 @@ export default (() => {
 			<Section
 				width="642.1739130434783px"
 				position="fixed"
-				bottom="94px"
+				bottom="91px"
 				height="248.6086956521739px"
-				left="auto"
-				right="301px"
+				left="660px"
+				right="auto"
 				top="auto"
 			>
+				<Text
+					position="sticky"
+					width="125px"
+					left="822px"
+					bottom="auto"
+					height="18px"
+					right="auto"
+					top="157px"
+				>
+					Пользователь:
+				</Text>
+				<Text
+					position="sticky"
+					width="168px"
+					left="822px"
+					top="auto"
+					right="auto"
+					bottom="151px"
+					height="18px"
+				>
+					Дата регистрации:
+				</Text>
+				<Text
+					position="sticky"
+					width="49px"
+					left="824px"
+					top="200px"
+					bottom="auto"
+					height="18px"
+					right="auto"
+				>
+					ФИО:
+				</Text>
+				<Text
+					position="sticky"
+					width="200px"
+					left="1000px"
+					top="201px"
+					right="auto"
+					bottom="auto"
+					height="18px"
+				>
+					Фамилия
+				</Text>
+				<Text
+					position="sticky"
+					width="200px"
+					left="1000px"
+					top="201px"
+					right="auto"
+					bottom="auto"
+					height="21px"
+				>
+					Имя
+				</Text>
+				<Text
+					position="sticky"
+					width="200px"
+					left="1000px"
+					top="201px"
+					right="auto"
+					bottom="242px"
+					height="18px"
+				>
+					Отчество
+				</Text>
 				<Text
 					position="sticky"
 					width="168px"
@@ -49,76 +115,10 @@ export default (() => {
 					left="822px"
 					top="auto"
 					right="auto"
-					bottom="151px"
-					height="18px"
-				>
-					Дата регистрации:
-				</Text>
-				<Text
-					position="sticky"
-					width="168px"
-					left="822px"
-					top="auto"
-					right="auto"
 					bottom="124px"
 					height="18px"
 				>
 					Был в сети:
-				</Text>
-				<Text
-					position="sticky"
-					width="125px"
-					left="822px"
-					bottom="auto"
-					height="18px"
-					right="auto"
-					top="157px"
-				>
-					Пользователь:
-				</Text>
-				<Text
-					position="sticky"
-					width="49px"
-					left="824px"
-					top="200px"
-					bottom="auto"
-					height="18px"
-					right="auto"
-				>
-					ФИО:
-				</Text>
-				<Text
-					position="sticky"
-					width="200px"
-					left="903px"
-					top="201px"
-					right="auto"
-					bottom="auto"
-					height="18px"
-				>
-					Фамилия
-				</Text>
-				<Text
-					position="sticky"
-					width="200px"
-					left="903px"
-					top="201px"
-					right="auto"
-					bottom="auto"
-					height="21px"
-				>
-					Имя
-				</Text>
-				<Text
-					position="sticky"
-					width="200px"
-					left="901px"
-					top="201px"
-					right="auto"
-					bottom="242px"
-					height="18px"
-				>
-					Отчество
 				</Text>
 			</Section>
 		</Section>
