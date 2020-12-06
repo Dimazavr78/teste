@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text } from "@quarkly/widgets";
+import { Theme, Link, Text, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Section } from "@quarkly/components";
 import * as Components from "components";
@@ -15,6 +15,94 @@ export default (() => {
 		</Helmet>
 		<Components.NavBar />
 		<Section>
+			<Text
+				position="fixed"
+				width="168px"
+				left="824px"
+				top="auto"
+				right="auto"
+				bottom="195px"
+				height="18px"
+			>
+				Статус активности:
+			</Text>
+			<Text
+				position="fixed"
+				width="168px"
+				left="822px"
+				top="auto"
+				right="auto"
+				bottom="151px"
+				height="18px"
+			>
+				Дата регистрации:
+			</Text>
+			<Text
+				position="fixed"
+				width="168px"
+				left="822px"
+				top="auto"
+				right="auto"
+				bottom="124px"
+				height="18px"
+			>
+				Был в сети:
+			</Text>
+			<Text
+				position="fixed"
+				width="125px"
+				left="822px"
+				bottom="auto"
+				height="18px"
+				right="auto"
+				top="157px"
+			>
+				Пользователь:
+			</Text>
+			<Text
+				position="fixed"
+				width="49px"
+				left="824px"
+				top="200px"
+				bottom="auto"
+				height="18px"
+				right="auto"
+			>
+				ФИО:
+			</Text>
+			<Text
+				position="fixed"
+				width="200px"
+				left="903px"
+				top="201px"
+				right="auto"
+				bottom="auto"
+				height="18px"
+			>
+				Фамилия
+			</Text>
+			<Text
+				position="fixed"
+				width="200px"
+				left="903px"
+				top="227px"
+				right="auto"
+				bottom="auto"
+				height="21px"
+			>
+				Имя
+			</Text>
+			<Text
+				position="fixed"
+				width="200px"
+				left="901px"
+				top="auto"
+				right="auto"
+				bottom="242px"
+				height="18px"
+			>
+				Отчество
+			</Text>
 			<Image
 				width="300px"
 				height="300px"
@@ -26,96 +114,12 @@ export default (() => {
 			<Section
 				width="642.1739130434783px"
 				position="fixed"
-				bottom="90.3913043478261px"
+				bottom="101px"
 				height="248.6086956521739px"
-				left="424.82608695652175px"
-				right="213px"
-				top="161px"
-			>
-				<Text
-					position="fixed"
-					width="168px"
-					left="500px"
-					top="auto"
-					right="auto"
-					bottom="181px"
-					height="18px"
-				>
-					Статус активности:
-				</Text>
-				<Text
-					position="fixed"
-					width="168px"
-					left="502px"
-					top="auto"
-					right="auto"
-					bottom="148px"
-					height="18px"
-				>
-					Дата регистрации:
-				</Text>
-				<Text
-					position="fixed"
-					width="168px"
-					left="501px"
-					top="auto"
-					right="auto"
-					bottom="123px"
-					height="18px"
-				>
-					Был в сети:
-				</Text>
-				<Text position="fixed" width="125px" left="500px">
-					Пользователь:
-				</Text>
-				<Text position="fixed" width="125px" left="610px">
-					Панда
-				</Text>
-				<Text
-					position="fixed"
-					width="49px"
-					left="505px"
-					top="200px"
-					bottom="234px"
-					height="18px"
-					right="726px"
-				>
-					ФИО:
-				</Text>
-				<Text
-					position="fixed"
-					width="200px"
-					left="564px"
-					top="197px"
-					right="auto"
-					bottom="auto"
-					height="18px"
-				>
-					Фамилия
-				</Text>
-				<Text
-					position="fixed"
-					width="200px"
-					left="565px"
-					top="220px"
-					right="auto"
-					bottom="auto"
-					height="21px"
-				>
-					Имя
-				</Text>
-				<Text
-					position="fixed"
-					width="200px"
-					left="562px"
-					top="243px"
-					right="auto"
-					bottom="auto"
-					height="18px"
-				>
-					Отчество
-				</Text>
-			</Section>
+				left="auto"
+				right="-118px"
+				top="auto"
+			/>
 		</Section>
 		<Section background="#27789c" />
 		<Link
