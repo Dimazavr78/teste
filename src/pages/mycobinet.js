@@ -26,14 +26,14 @@ export default (() => {
 			<Section
 				width="642.1739130434783px"
 				position="fixed"
-				bottom="101px"
+				bottom="94px"
 				height="248.6086956521739px"
 				left="auto"
-				right="-118px"
+				right="301px"
 				top="auto"
 			>
 				<Text
-					position="fixed"
+					position="sticky"
 					width="168px"
 					left="824px"
 					top="auto"
@@ -44,7 +44,7 @@ export default (() => {
 					Статус активности:
 				</Text>
 				<Text
-					position="fixed"
+					position="sticky"
 					width="168px"
 					left="822px"
 					top="auto"
@@ -55,7 +55,7 @@ export default (() => {
 					Дата регистрации:
 				</Text>
 				<Text
-					position="fixed"
+					position="sticky"
 					width="168px"
 					left="822px"
 					top="auto"
@@ -66,7 +66,7 @@ export default (() => {
 					Был в сети:
 				</Text>
 				<Text
-					position="fixed"
+					position="sticky"
 					width="125px"
 					left="822px"
 					bottom="auto"
@@ -77,7 +77,7 @@ export default (() => {
 					Пользователь:
 				</Text>
 				<Text
-					position="fixed"
+					position="sticky"
 					width="49px"
 					left="824px"
 					top="200px"
@@ -88,7 +88,7 @@ export default (() => {
 					ФИО:
 				</Text>
 				<Text
-					position="fixed"
+					position="sticky"
 					width="200px"
 					left="903px"
 					top="201px"
@@ -99,10 +99,10 @@ export default (() => {
 					Фамилия
 				</Text>
 				<Text
-					position="fixed"
+					position="sticky"
 					width="200px"
 					left="903px"
-					top="227px"
+					top="201px"
 					right="auto"
 					bottom="auto"
 					height="21px"
@@ -110,10 +110,10 @@ export default (() => {
 					Имя
 				</Text>
 				<Text
-					position="fixed"
+					position="sticky"
 					width="200px"
 					left="901px"
-					top="auto"
+					top="201px"
 					right="auto"
 					bottom="242px"
 					height="18px"
