@@ -23,89 +23,99 @@ export default (() => {
 				max-width="500px"
 				max-height="500px"
 			/>
-			<Text position="fixed" width="125px" left="500px">
-				Пользователь:
-			</Text>
-			<Text position="fixed" width="125px" left="610px">
-				Панда
-			</Text>
-			<Text
+			<Section
+				width="642.1739130434783px"
 				position="fixed"
-				width="49px"
-				left="505px"
-				top="200px"
-				bottom="234px"
-				height="18px"
-				right="726px"
+				bottom="90.3913043478261px"
+				height="248.6086956521739px"
+				left="424.82608695652175px"
+				right="213px"
+				top="161px"
 			>
-				ФИО:
-			</Text>
-			<Text
-				position="fixed"
-				width="200px"
-				left="564px"
-				top="197px"
-				right="auto"
-				bottom="auto"
-				height="18px"
-			>
-				Фамилия
-			</Text>
-			<Text
-				position="fixed"
-				width="200px"
-				left="565px"
-				top="220px"
-				right="auto"
-				bottom="auto"
-				height="21px"
-			>
-				Имя
-			</Text>
-			<Text
-				position="fixed"
-				width="200px"
-				left="562px"
-				top="243px"
-				right="auto"
-				bottom="auto"
-				height="18px"
-			>
-				Отчество
-			</Text>
-			<Text
-				position="fixed"
-				width="168px"
-				left="500px"
-				top="auto"
-				right="auto"
-				bottom="181px"
-				height="18px"
-			>
-				Статус активности:
-			</Text>
-			<Text
-				position="fixed"
-				width="168px"
-				left="502px"
-				top="auto"
-				right="auto"
-				bottom="148px"
-				height="18px"
-			>
-				Дата регистрации:
-			</Text>
-			<Text
-				position="fixed"
-				width="168px"
-				left="501px"
-				top="auto"
-				right="auto"
-				bottom="123px"
-				height="18px"
-			>
-				Был в сети:
-			</Text>
+				<Text
+					position="fixed"
+					width="168px"
+					left="500px"
+					top="auto"
+					right="auto"
+					bottom="181px"
+					height="18px"
+				>
+					Статус активности:
+				</Text>
+				<Text
+					position="fixed"
+					width="168px"
+					left="502px"
+					top="auto"
+					right="auto"
+					bottom="148px"
+					height="18px"
+				>
+					Дата регистрации:
+				</Text>
+				<Text
+					position="fixed"
+					width="168px"
+					left="501px"
+					top="auto"
+					right="auto"
+					bottom="123px"
+					height="18px"
+				>
+					Был в сети:
+				</Text>
+				<Text position="fixed" width="125px" left="500px">
+					Пользователь:
+				</Text>
+				<Text position="fixed" width="125px" left="610px">
+					Панда
+				</Text>
+				<Text
+					position="fixed"
+					width="49px"
+					left="505px"
+					top="200px"
+					bottom="234px"
+					height="18px"
+					right="726px"
+				>
+					ФИО:
+				</Text>
+				<Text
+					position="fixed"
+					width="200px"
+					left="564px"
+					top="197px"
+					right="auto"
+					bottom="auto"
+					height="18px"
+				>
+					Фамилия
+				</Text>
+				<Text
+					position="fixed"
+					width="200px"
+					left="565px"
+					top="220px"
+					right="auto"
+					bottom="auto"
+					height="21px"
+				>
+					Имя
+				</Text>
+				<Text
+					position="fixed"
+					width="200px"
+					left="562px"
+					top="243px"
+					right="auto"
+					bottom="auto"
+					height="18px"
+				>
+					Отчество
+				</Text>
+			</Section>
 		</Section>
 		<Section background="#27789c" />
 		<Link
