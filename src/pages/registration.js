@@ -28,6 +28,7 @@ export default (() => {
 				placeholder="Логин"
 				required
 				type="text"
+				margin="0px 0px 0px 40%"
 			/>
 			<Input
 				width="300px"
@@ -36,7 +37,7 @@ export default (() => {
 				position="sticky"
 				left="500px"
 				border-color="#000000"
-				margin="50px 0px 0px 0px"
+				margin="50px 0px 0px 40%"
 				required
 				type="password"
 				placeholder="Пароль"
@@ -48,7 +49,7 @@ export default (() => {
 				position="sticky"
 				left="500px"
 				border-color="#000000"
-				margin="50px 0px 0px 0px"
+				margin="50px 0px 0px 40%"
 				required
 				type="password"
 				placeholder="Повторите пароль"
@@ -60,7 +61,7 @@ export default (() => {
 				position="sticky"
 				left="500px"
 				border-color="#000000"
-				margin="50px 0px 0px 0px"
+				margin="50px 0px 0px 40%"
 				required
 				type="email"
 				placeholder="Email"
@@ -72,7 +73,7 @@ export default (() => {
 				position="sticky"
 				left="500px"
 				border-color="#000000"
-				margin="50px 0px 0px 0px"
+				margin="50px 0px 0px 40%"
 				required
 				type="text"
 				placeholder="Фамилия"
@@ -84,7 +85,7 @@ export default (() => {
 				position="sticky"
 				left="500px"
 				border-color="#000000"
-				margin="50px 0px 0px 0px"
+				margin="50px 0px 0px 40%"
 				required
 				type="text"
 				placeholder="Имя"
@@ -96,7 +97,7 @@ export default (() => {
 				position="sticky"
 				left="500px"
 				border-color="#000000"
-				margin="50px 0px 0px 0px"
+				margin="50px 0px 0px 40%"
 				required
 				type="text"
 				placeholder="Отчество"
@@ -108,7 +109,7 @@ export default (() => {
 				max-width="700px"
 				position="sticky"
 				left="400px"
-				margin="50px 0px 0px 0px"
+				margin="50px 0px 0px 40%"
 			>
 				Зарегистрироваться
 			</Button>

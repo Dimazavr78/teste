@@ -25,25 +25,117 @@ export default (() => {
 				</Text>
 				<Text
 					width="100px"
-					position="absolute"
-					bottom="75px"
+					position="static"
+					bottom="69px"
 					height="18px"
-					left="252px"
+					left="503px"
 					right="auto"
 					top="auto"
+					lg-position="fixed"
+					lg-bottom="73px"
+					lg-left="255px"
+					lg-right="auto"
+					lg-top="auto"
 				>
 					Рейтинг:
 				</Text>
+			</Section>
+			<Section
+				width="450px"
+				height="289px"
+				border-width="2px"
+				border-style="solid"
+				display="flex"
+				bottom="auto"
+				left="auto"
+				right="532px"
+				top="251px"
+			>
+				<Image width="320px" height="215px" margin="0px 0px 0px 30px" />
+				<Text width="200px">
+					Красный бархат
+				</Text>
 				<Text
-					width="50px"
-					position="absolute"
-					bottom="75px"
+					width="100px"
+					position="static"
+					bottom="69px"
 					height="18px"
-					left="331px"
+					left="503px"
 					right="auto"
 					top="auto"
+					lg-position="fixed"
+					lg-top="auto"
+					lg-right="auto"
+					lg-bottom="73px"
+					lg-left="255px"
 				>
-					20
+					Рейтинг:
+				</Text>
+			</Section>
+			<Section width="450px" height="289px" border-width="2px" border-style="solid">
+				<Image width="320px" height="215px" margin="0px 0px 0px 30px" />
+				<Text width="200px">
+					Красный бархат
+				</Text>
+				<Text
+					width="100px"
+					position="static"
+					bottom="69px"
+					height="18px"
+					left="503px"
+					right="auto"
+					top="auto"
+					lg-position="fixed"
+					lg-top="auto"
+					lg-right="auto"
+					lg-bottom="73px"
+					lg-left="255px"
+				>
+					Рейтинг:
+				</Text>
+			</Section>
+			<Section width="450px" height="289px" border-width="2px" border-style="solid">
+				<Image width="320px" height="215px" margin="0px 0px 0px 30px" />
+				<Text width="200px">
+					Красный бархат
+				</Text>
+				<Text
+					width="100px"
+					position="static"
+					bottom="69px"
+					height="18px"
+					left="503px"
+					right="auto"
+					top="auto"
+					lg-position="fixed"
+					lg-top="auto"
+					lg-right="auto"
+					lg-bottom="73px"
+					lg-left="255px"
+				>
+					Рейтинг:
+				</Text>
+			</Section>
+			<Section width="450px" height="289px" border-width="2px" border-style="solid">
+				<Image width="320px" height="215px" margin="0px 0px 0px 30px" />
+				<Text width="200px">
+					Красный бархат
+				</Text>
+				<Text
+					width="100px"
+					position="static"
+					bottom="69px"
+					height="18px"
+					left="503px"
+					right="auto"
+					top="auto"
+					lg-position="fixed"
+					lg-top="auto"
+					lg-right="auto"
+					lg-bottom="73px"
+					lg-left="255px"
+				>
+					Рейтинг:
 				</Text>
 			</Section>
 		</Section>

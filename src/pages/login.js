@@ -31,17 +31,15 @@ export default (() => {
 			max-width="1400px"
 			quarkly-title="loginFild"
 			position="fixed"
-			left="500px"
-			margin="0px 0px 50px 0px"
+			margin="0px 0px 50px 43%"
 			placeholder="Логин"
 			required
 			type="text"
 		/>
 		<Section />
 		<Input
-			margin="0 0px 100px 0px"
+			margin="0px 0px 50px 43%"
 			position="relative"
-			left="500px"
 			border-color="#000000"
 			min-width="300px"
 			max-width="1400px"
@@ -49,10 +47,12 @@ export default (() => {
 			required
 			type="password"
 		/>
-		<Button position="absolute" left="610px" margin="70px 0px 0px 0px" background="#ff00ff">
+		<Button position="absolute" left="47%" margin="70px 0px 0px 0px" background="#ff00ff">
 			Войти
 		</Button>
-		<Section background="#27789c" />
+		<Section background="#27789c">
+			<Override slot="SectionContent" margin="20px 68.2969px 0px 68.2969px" />
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

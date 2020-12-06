@@ -23,14 +23,14 @@ export default (() => {
 				max-width="500px"
 				max-height="500px"
 			/>
-			<Text position="absolute" width="125px" left="500px">
+			<Text position="fixed" width="125px" left="500px">
 				Пользователь:
 			</Text>
-			<Text position="absolute" width="125px" left="610px">
+			<Text position="fixed" width="125px" left="610px">
 				Панда
 			</Text>
 			<Text
-				position="absolute"
+				position="fixed"
 				width="49px"
 				left="505px"
 				top="200px"
@@ -41,62 +41,51 @@ export default (() => {
 				ФИО:
 			</Text>
 			<Text
-				position="absolute"
+				position="fixed"
 				width="200px"
-				left="auto"
-				top="200px"
-				right="529px"
+				left="564px"
+				top="197px"
+				right="auto"
 				bottom="auto"
 				height="18px"
 			>
 				Фамилия
 			</Text>
 			<Text
-				position="absolute"
+				position="fixed"
 				width="200px"
-				left="auto"
-				top="auto"
-				right="529px"
-				bottom="214px"
+				left="565px"
+				top="220px"
+				right="auto"
+				bottom="auto"
 				height="21px"
 			>
 				Имя
 			</Text>
 			<Text
-				position="absolute"
+				position="fixed"
 				width="200px"
-				left="auto"
-				top="auto"
-				right="530px"
-				bottom="198px"
+				left="562px"
+				top="243px"
+				right="auto"
+				bottom="auto"
 				height="18px"
 			>
 				Отчество
 			</Text>
 			<Text
-				position="absolute"
+				position="fixed"
 				width="168px"
-				left="504px"
-				top="260px"
-				right="608px"
-				bottom="174px"
+				left="500px"
+				top="auto"
+				right="auto"
+				bottom="181px"
 				height="18px"
 			>
 				Статус активности:
 			</Text>
 			<Text
-				position="absolute"
-				width="200px"
-				left="auto"
-				top="auto"
-				right="429px"
-				bottom="172px"
-				height="18px"
-			>
-				Активен
-			</Text>
-			<Text
-				position="absolute"
+				position="fixed"
 				width="168px"
 				left="502px"
 				top="auto"
@@ -107,18 +96,7 @@ export default (() => {
 				Дата регистрации:
 			</Text>
 			<Text
-				position="absolute"
-				width="200px"
-				left="auto"
-				top="auto"
-				right="437px"
-				bottom="147px"
-				height="18px"
-			>
-				27.09.2020 12:32:05
-			</Text>
-			<Text
-				position="absolute"
+				position="fixed"
 				width="168px"
 				left="501px"
 				top="auto"
@@ -127,17 +105,6 @@ export default (() => {
 				height="18px"
 			>
 				Был в сети:
-			</Text>
-			<Text
-				position="absolute"
-				width="200px"
-				left="auto"
-				top="auto"
-				right="487px"
-				bottom="121px"
-				height="18px"
-			>
-				27.09.2020 12:32:05
 			</Text>
 		</Section>
 		<Section background="#27789c" />
